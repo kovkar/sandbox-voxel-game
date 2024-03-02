@@ -1,0 +1,3 @@
+02/03/23 [5h]
+- assets: grass and snow block
+- chunk surface generation from perlin noise with snow instead of grass above height threshold
