@@ -1,3 +1,11 @@
 02/03/23 [5h]
 - assets: grass and snow block
 - chunk surface generation from perlin noise with snow instead of grass above height threshold
+03/03/23 [3h]
+- world BP: all settings for terrain generation and noise setup logic moved here, spawns initial chunk 
+* thanks to variable name typo, most time spent learning how to debug blueprints
+
+next:
+- rock block asset 
+- generation of full terrain instead of surface only
+- dynamic loading/generation of chunks 
