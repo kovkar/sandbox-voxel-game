@@ -4,8 +4,10 @@
 03/03/23 [3h]
 - world BP: all settings for terrain generation and noise setup logic moved here, spawns initial chunk 
 * thanks to variable name typo, most time spent learning how to debug blueprints
+04/03/23 [8h]
+- chunk initializing voxels with block IDs, instancing only top block of terrain
+- hard refactoring of world and chunk BPs
+* noise now working if set-up in construction script (race condition?)
 
-next:
-- rock block asset 
-- generation of full terrain instead of surface only
-- dynamic loading/generation of chunks 
+next: 
+- dynamic chunk loading 
