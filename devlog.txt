@@ -8,6 +8,13 @@
 - chunk initializing voxels with block IDs, instancing only top block of terrain
 - hard refactoring of world and chunk BPs
 * noise now working if set-up in construction script (race condition?)
+05/03/23 [6h]
+- working on dynamic chunk loading
+* trying to make publisher and listeners for entering chunk event 
 
-next: 
-- dynamic chunk loading 
+06/03/23 [7h]
+- finishing dynamic chunk loading
+- structure holding info about loaded chunks removed, chunks beyond load distance "symmetrically" spawn new chunks before they are destroyed (one for one)
+* box collision bugs, learning how collision works
+
+next: add more blocks, removing and adding blocks
