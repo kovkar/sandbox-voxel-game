@@ -1,4 +1,4 @@
-Keďže som v Unreal engine nikdy nepracoval väšľinu času som strávil učením sa čo ako funguje alebo hľadaním prečo niečo nefunguje. 
+Keďže som v Unreal engine nikdy nepracoval väšinu času som strávil učením sa čo ako funguje alebo hľadaním prečo niečo nefunguje. 
 Zadanie bolo fajn, voxeli sú veľmi zaujímavá téma s kopou možností na optimalizácie, na koľko je toto moja unreal premiéra od začiatku
 som tušil, že za k nejakým extra optimalizáciám za týždeň nedostyanem ale predsa len som niečo stihol.
 
