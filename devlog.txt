@@ -18,9 +18,9 @@
 07/03/23 [5h]
 - removing of instanciated blocks on left click, voxel structures not updated yet
 - added map (id:chunk) of loaded chunks to world and function for accesing voxels globally
+08/03/23 [12h]
+- building systsem
+* ISM lowers all higher indices than removed index.. it took 5 hours of debugging to lerarn this, solution -> using HISM that swaps removed with last and indices are unchanged except last one, map storing indices of instances is than updated accordingly
 
-next: add block on right click, update structures and spawn/remove instances after block added/deleted, 4 new block assets
-
-seed save?
-crosshair?
-loading chunks in different thread?
+next:
+add more blocks, input for building block selection, refactoring, seed/world saving?, thread for chunk loading?
