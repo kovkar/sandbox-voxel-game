@@ -1,0 +1,26 @@
+02/03/23 [5h]
+- assets: grass and snow block
+- chunk surface generation from perlin noise with snow instead of grass above height threshold
+03/03/23 [3h]
+- world BP: all settings for terrain generation and noise setup logic moved here, spawns initial chunk 
+* thanks to variable name typo, most time spent learning how to debug blueprints
+04/03/23 [8h]
+- chunk initializing voxels with block IDs, instancing only top block of terrain
+- hard refactoring of world and chunk BPs
+* noise now working if set-up in construction script (race condition?)
+05/03/23 [6h]
+- working on dynamic chunk loading
+* trying to make publisher and listeners for entering chunk event 
+06/03/23 [7h]
+- finishing dynamic chunk loading
+- structure holding info about loaded chunks removed, chunks beyond load distance "symmetrically" spawn new chunks before they are destroyed (one for one)
+* box collision bugs, learning how collision works
+07/03/23 [5h]
+- removing of instanciated blocks on left click, voxel structures not updated yet
+- added map (id:chunk) of loaded chunks to world and function for accesing voxels globally
+
+next: add block on right click, update structures and spawn/remove instances after block added/deleted, 4 new block assets
+
+seed save?
+crosshair?
+loading chunks in different thread?
